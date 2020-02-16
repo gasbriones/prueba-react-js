@@ -1,0 +1,41 @@
+//header config
+$header-height: 46px;
+$header-margin-left: 170px;
+$header-margin-left-collapsed: 45px;
+
+//LANGUAGES
+$language-current-flag-width: 30px;
+$language-current-flag-height: 30px;
+$language-current-flag-radius: 15px;
+
+$language-drop-down-width: 300px;
+$language-drop-down-height: 330px;
+
+$language-list-flags-width: 90px;
+$language-list-flags-height: 50px;
+
+$language-drop-down-close-color: white;
+$language-drop-down-close-size: 18px;
+
+
+
+//aside config
+$aside-width: 170px;
+$aside-collapsed: 45px;
+$aside-menu-color: white;
+$aside-menu-font-size: 14px;
+
+// collapse btn
+$collapse-btn-color: white;
+$collapse-btn-size: 24px;
+$collapse-btn-height: 24px;
+
+//Carousel
+
+//colors
+$blue: #011E4A;
+$light-blue: #337ab7;
+$blue-gradient: linear-gradient(to bottom, rgba(1,30,74,1) 0%,rgba(129,152,185,1) 100%);
+$blue-gradient-cover: linear-gradient(to bottom, rgba(1,30,74,1) 0%,rgba(1,30,74,0.91) 14%,rgba(1,30,74,0.7) 45%,rgba(1,30,74,0.33) 100%);
+$blue-gradient-to-left: linear-gradient(to left,rgba(51, 122, 183, 0.47) 0,rgba(0,0,0,.0001) 100%);
+$blue-gradient-to-right:linear-gradient(to right,rgba(51, 122, 183, 0.47) 0,rgba(0,0,0,.0001) 100%);

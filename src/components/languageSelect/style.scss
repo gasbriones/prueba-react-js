@@ -1,0 +1,74 @@
+@import '../../scss/variables';
+@import '../../scss/animations';
+
+.language {
+  margin-left: auto;
+
+  &__current {
+    border-radius: $language-current-flag-radius;
+    overflow: hidden;
+    display: block;
+
+    img {
+      width: $language-current-flag-width;
+      height: $language-current-flag-height;
+    }
+  }
+
+  &__drop-down {
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    width: $language-drop-down-width;
+    height: $language-drop-down-height;
+    padding: 30px;
+    background: $blue-gradient-cover;
+    animation: fadein 1s;
+
+    &__close {
+      color: $language-drop-down-close-color;
+      font-size: $language-drop-down-close-size;
+    }
+
+    &__title {
+      color: white;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    &__list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      &-item {
+        float: left;
+        padding: 15px;
+
+        img {
+          transition: all 0.5s;
+          border: solid 1px transparent;
+          width: $language-list-flags-width;
+          height: $language-list-flags-height;
+
+          &:hover {
+            cursor: pointer;
+            border: solid 1px white;
+            border-radius: 12px;
+          }
+        }
+
+        &.selected {
+          img {
+            animation: PulseSelected 1s infinite ease-in-out;
+            border: solid 1px white;
+            border-radius: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+

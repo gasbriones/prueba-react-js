@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+html body .app.flex-row.align-items-center {
+  height: 100vh; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #root {
+    display: flex;
+    flex-direction: column; } }
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Raleway', sans-serif; }
+
+.full-height {
+  height: 100%; }
+
+iframe {
+  height: 100%; }

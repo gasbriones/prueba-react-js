@@ -1,0 +1,106 @@
+@import '../../scss/variables';
+
+.app {
+  overflow: hidden;
+
+  .header {
+    background: $blue;
+    height: $header-height;
+    margin-left: $header-margin-left;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    transition: 0.5s;
+
+    .collapse-btn {
+      font-size: $collapse-btn-size;
+      color: $collapse-btn-color;
+    }
+  }
+
+  .main {
+    margin-left: 170px;
+    transition: all 0.5s;
+  }
+
+  .aside {
+    position: fixed;
+    width: $aside-width;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: $blue-gradient;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    &__logo {
+      margin: 15px auto;
+      display: table;
+    }
+
+    &__menu {
+      list-style-type: none;
+      padding-left: 0;
+      padding-top: 8px;
+
+      li {
+
+        a {
+          transition: all 0.5s;
+          display: block;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          padding-left: 38px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          color: $aside-menu-color;
+          font-size: $aside-menu-font-size;
+          text-decoration: none;
+
+          &:hover, &.active {
+            background: #839abb;
+            padding-left: 51px;
+          }
+
+          &.active {
+            &:before {
+              content: ">";
+              margin-right: 4px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.collapse {
+    display: block !important;
+
+    .aside {
+      width: $aside-collapsed;
+
+      &__menu {
+        li {
+          a {
+            padding-left: 11px;
+            &.active {
+              &:before {
+                content: "";
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .header {
+      margin-left: $header-margin-left-collapsed;
+    }
+
+    .main {
+      margin-left: 45px;
+    }
+  }
+}

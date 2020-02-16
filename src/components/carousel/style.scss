@@ -1,0 +1,59 @@
+@import '../../scss/variables';
+
+.carousel {
+  position: relative;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+
+  &__title {
+    border-radius: 50px;
+    margin-bottom: 18px;
+    margin-top: 32px;
+    width: 30%;
+    font-size: 25px;
+    color: $light-blue;
+    text-align: center;
+  }
+
+  &__item {
+    &-info {
+      position: absolute;
+      left: 50%;
+      top: 30px;
+      &__title {
+        color: $blue ;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    height: 200px;
+    vertical-align: middle;
+    overflow: visible;
+    top: -10px;
+    left: 0;
+  }
+
+
+  //overwrite
+
+  .carousel-inner {
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+    height: 240px;
+  }
+
+  .carousel-control-next{
+    background-image: $blue-gradient-to-left;
+    border-radius: 14px;
+  }
+
+  .carousel-control-prev {
+    background-image: $blue-gradient-to-right;
+    border-radius: 14px;
+  }
+}

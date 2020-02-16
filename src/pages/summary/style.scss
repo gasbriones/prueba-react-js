@@ -1,0 +1,28 @@
+@import '../../scss/variables';
+
+.summary-view {
+  margin: 20px 0;
+  overflow: auto;
+  &__title {
+    text-align: center;
+  }
+
+  .card-1, .card-2, .card-3 {
+    background: #f7464a;
+    color: white;
+
+    img {
+      overflow: hidden;
+      border-radius: 10px;
+    }
+  }
+
+  .card-2 {
+    background: #97bbcd;
+  }
+
+  .card-3 {
+    background: #dcdcdc;
+    color: $blue;
+  }
+}
