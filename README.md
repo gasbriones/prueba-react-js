@@ -53,3 +53,7 @@ prueba-react-js #v1.0.0
 │
 └── package.json
 ```
+## External libraries
+- chart.js [https://www.chartjs.org/docs/latest/] (used in summary page)
+- chart.js [https://www.chartjs.org/docs/latest/] (used in summary page)
+
