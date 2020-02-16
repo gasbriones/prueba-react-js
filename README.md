@@ -54,6 +54,12 @@ prueba-react-js #v1.0.0
 └── package.json
 ```
 ## External libraries
-- chart.js [https://www.chartjs.org/docs/latest/] (used in summary page)
-- chart.js [https://www.chartjs.org/docs/latest/] (used in summary page)
+- chart.js and react-chartjs-2 [https://www.chartjs.org/docs/latest/] (used in summary page)
+- react-bootstrap [https://react-bootstrap.github.io/getting-started/introduction] (used for create markup)
+- react-bootstrap-table [http://allenfang.github.io/react-bootstrap-table/docs.html] (used in table page)
+- react-loadable [https://github.com/jamiebuilds/react-loadable] (loading components with dynamic imports.)
+- react-redux [https://redux.js.org/basics/usage-with-react/] (states managements)
+- reactstrap [https://reactstrap.github.io/components/] (components bases in bootstrap)
+
+
 
