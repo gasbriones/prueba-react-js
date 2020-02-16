@@ -11,6 +11,6 @@ $ cd prueba-react-js
 # install app's dependencies
 $ npm install
 
-# Run app
+# run app
 $ npm run start
 ```
