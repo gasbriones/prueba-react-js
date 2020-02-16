@@ -6,7 +6,7 @@ const initialState = {
         id: 1,
         name: 'ENGLISH',
         shortName: 'En',
-        imageUrl: '/images/icons/LANGUAGES/england.png',
+        imageUrl: '/images/icons/languages/england.png',
         iframeUrl: 'https://www.ricoh.co.uk/index.html'
     },
     literals: {}

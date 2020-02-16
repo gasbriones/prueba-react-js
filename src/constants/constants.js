@@ -42,42 +42,42 @@ export const LANGUAGES = [
         id: 1,
         name: 'ENGLISH',
         shortName: 'En',
-        imageUrl: '/images/icons/LANGUAGES/england.png',
+        imageUrl: '/images/icons/languages/england.png',
         iframeUrl: 'https://www.ricoh.co.uk/index.html'
     },
     {
         id: 2,
         name: 'SPANISH',
         shortName: 'Es',
-        imageUrl: '/images/icons/LANGUAGES/spain.png',
+        imageUrl: '/images/icons/languages/spain.png',
         iframeUrl: 'https://www.ricoh.es/index.html'
     },
     {
         id: 3,
         name: 'ITALIAN',
         shortName: 'It',
-        imageUrl: '/images/icons/LANGUAGES/italian.png',
+        imageUrl: '/images/icons/languages/italian.png',
         iframeUrl: 'https://www.ricoh.it/index.html'
     },
     {
         id: 4,
         name: 'FRENCH',
         shortName: 'Fr',
-        imageUrl: '/images/icons/LANGUAGES/french.png',
+        imageUrl: '/images/icons/languages/french.png',
         iframeUrl: 'https://www.ricoh.fr/index.html'
     },
     {
         id: 5,
         name: 'GERMAN',
         shortName: 'Gr',
-        imageUrl: '/images/icons/LANGUAGES/german.png',
+        imageUrl: '/images/icons/languages/german.png',
         iframeUrl: 'https://www.ricoh.de/index.html'
     },
     {
         id: 6,
         name: 'PORTUGUESE',
         shortName: 'Pt',
-        imageUrl: '/images/icons/LANGUAGES/portuguese.png',
+        imageUrl: '/images/icons/languages/portuguese.png',
         iframeUrl: 'https://www.ricoh.pt/index.html'
     }
 ];
