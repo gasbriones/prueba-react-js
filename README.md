@@ -3,11 +3,14 @@
 
 ``` bash
 # clone the repo
-$ git clone https://github.com/coreui/coreui-free-react-admin-template.git my-project
+$ git clone git@github.com:gasbriones/prueba-react-js.git
 
 # go into app's directory
-$ cd my-project
+$ cd prueba-react-js
 
 # install app's dependencies
 $ npm install
+
+# Run app
+$ npm run start
 ```
